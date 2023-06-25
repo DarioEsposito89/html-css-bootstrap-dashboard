@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    overflow: auto;
+}
+section {
+    min-height: 100px;
+}
+
+.my-search-bar {
+    background-color: #e5e5e5;
+    color: #929292;
+}
+
+a {
+    text-decoration: none;
+}
+aside {
+    background-color: #051e34;
+    width: 200px;
+}
+
+.bg-image {
+    background-image: url(../img/sidebar-bg.png);
+}
+
+@media screen and (max-width: 992px) {
+    aside {
+        width: 80px;
+    }
+}
