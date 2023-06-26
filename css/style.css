@@ -20,19 +20,8 @@ aside {
     min-height: 100vh;
 }
 
-aside .nav-link:hover > span{
-    background-color: white;
-    color: black !important;
-}
-
-aside .nav-link:hover > i {
-    background-color: white;
-    color: black !important;
-}
-
 aside li:hover{
-    background-color: white;
-    color: black !important;
+    background-color: grey;
 }
 
 .hero-section, .content-section {
