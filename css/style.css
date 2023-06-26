@@ -24,6 +24,11 @@ aside {
     min-height: 100vh;
 }
 
+aside .nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
 .hero-section, .content-section {
     width: 100%;
 }
