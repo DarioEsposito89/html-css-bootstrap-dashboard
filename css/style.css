@@ -6,10 +6,6 @@ main {
     overflow: auto;
 }
 
-section {
-    min-height: 100px;
-}
-
 .my-search-bar {
     background-color: #e5e5e5;
     color: #929292;
@@ -24,25 +20,39 @@ aside {
     min-height: 100vh;
 }
 
-aside .nav-link:hover {
+aside .nav-link:hover > span{
     background-color: white;
-    color: black;
+    color: black !important;
+}
+
+aside .nav-link:hover > i {
+    background-color: white;
+    color: black !important;
+}
+
+aside li:hover{
+    background-color: white;
+    color: black !important;
 }
 
 .hero-section, .content-section {
     width: 100%;
 }
 
+.hero-section .badge {
+    background-color: #165bba !important;
+}
+
 .bg-image {
     background-image: url(../img/sidebar-bg.png);
+}
+
+.dropdown-toggle::after {
+    content: none;
 }
 
 @media screen and (max-width: 992px) {
     aside {
         width: 80px;
     }
-}
-
-.container-general {
-    height: 100vh;
 }
