@@ -20,6 +20,10 @@ aside {
     min-height: 100vh;
 }
 
+.hero-section, .content-section {
+    width: 100%;
+}
+
 .bg-image {
     background-image: url(../img/sidebar-bg.png);
 }
@@ -28,4 +32,8 @@ aside {
     aside {
         width: 80px;
     }
+}
+
+.container-general {
+    height: 100vh;
 }
