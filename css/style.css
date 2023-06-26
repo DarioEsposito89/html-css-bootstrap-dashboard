@@ -17,6 +17,7 @@ a {
 aside {
     background-color: #051e34;
     width: 200px;
+    min-height: 100vh;
 }
 
 .bg-image {
