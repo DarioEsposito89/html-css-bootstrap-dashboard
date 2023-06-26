@@ -11,15 +11,20 @@
     <title>Dashboard Bootstrap</title>
 </head>
 <body class="d-flex">
+    <!-- HEADER -->
     <header>
+        <!-- NAVBAR -->
         <nav class="navbar bg-white flex-nowrap fixed-top justify-content-center">
+            <!-- LOGO BOOLEAN -->
             <a class="navbar-brand" href="#">
                 <img class="d-none d-lg-flex ms-2" src="img/logo.svg" alt="Boolean" width="150" height="30">
                 <img class="d-lg-none ms-4" src="img/mobile-logo.png" alt="Boolean" width="40" height="40">
             </a>
+            <!-- SEARCH BAR -->
             <form class="d-flex flex-grow-1" role="search">
                 <input class="form-control me-2 my-search-bar" type="search" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
             </form>
+            <!-- NABAR ICON -->
             <div class="icon-nav-bar d-flex align-items-center px-lg-3 gap-lg-3">
                 <a href="#"><i class="fa-solid fa-list d-none d-lg-flex" style="color: #5b5858;"></i></a>
                 <a href="#"><i class="fa-solid fa-circle-question d-none d-lg-flex" style="color: #5b5858;"></i></a>
@@ -39,7 +44,9 @@
 
     </header>
     
+    <!-- SIDEBAR -->
     <aside class="d-flex flex-column flex-shrink-0 p-3 pt-5 text-white bg-dark bg-image">
+        <!-- LIST LINK -->
         <ul class="nav nav-pills flex-column mb-auto flex-grow-1 align-items-center pt-5">
             <li>
                 <a href="#" class="nav-link text-white d-flex gap-3 align-items-center">
@@ -60,6 +67,7 @@
             </a>
             </li>
         </ul>
+        <!-- ADMIN -->
         <ul class="nav nav-pills flex-column align-items-center pt-5">
             <li>
                 <a href="#" class="nav-link text-white d-flex gap-3 align-items-center">
@@ -70,12 +78,15 @@
         </ul>
     </aside>
 
+    <!-- MAIN -->
     <main class="d-flex flex-wrap">
+        <!-- HERO SECTION -->
         <section class="hero-section bg-primary mt-5 pb-3">
             <div class="container">
                 <div class="row">
                     <div class="col-12 mt-5 text-white">
                         <div class="row d-flex flex-wrap gap-3">
+                            <!-- BOOLEAN BADGE -->
                             <div class="col-12 col-md-5 d-flex align-items-center gap-2 flex-wrap mb-3">
                                 <h2>Boolean</h2>
                                 <span class="badge rounded-pill text-bg-dark">Piano Blaze</span>
@@ -85,10 +96,12 @@
                                 <span class="badge rounded-pill text-bg-dark">Boolean web app</span>
                                 <span class="badge rounded-pill text-bg-dark">Boolean blog app</span>
                             </div>
+                            <!-- STUDENTS ONLINE -->
                             <div class="col-12 col-md-3">
                                 <div>Studenti online negli ultimi 30 minuti</div>
                                 <h2>125</h2>
                             </div>
+                            <!-- BTN ADD STUDENT -->
                             <div class="col-12 col-md-2 d-flex align-self-start gap-2">
                                 <div class="text-nowrap">Nuovo studente</div>
                                 <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-plus"></i></button>
@@ -99,9 +112,11 @@
             </div>
         </section>
 
+        <!-- SECTION CONTENT STATS -->
         <section class="content-section bg-white">
             <div class="container">
                 <div class="row">
+                    <!-- NEXT CLASSES -->
                     <div class="col col-lg-8 mt-4">
                         <div class="card">
                             <div class="card-header">
@@ -201,6 +216,8 @@
                                 </tbody>
                             </table>
                         </div>
+
+                        <!-- F.A.Q -->
                         <div class="card my-3">
                             <div class="card-header">
                                 F.A.Q
@@ -239,6 +256,8 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- TODO -->
                     <div class="col col-lg-4">
                         <div class="card mt-4">
                             <div class="card-header">
@@ -259,6 +278,8 @@
                                 </li>
                             </ul>
                         </div>
+
+                        <!-- STATS -->
                         <div class="card my-3">
                             <img src="img/stats.jpeg" class="card-img-top" alt="">
                             <div class="card-body">
@@ -282,6 +303,7 @@
 
     </main>
 
+    <!-- Link for JS CODE -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
