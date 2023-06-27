@@ -110,11 +110,70 @@
 
                                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                     <div class="offcanvas-header">
-                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                                     </div>
                                     <div class="offcanvas-body">
-                                    ...
+                                        <form class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="validationDefault01" class="form-label">Nome</label>
+                                                <input type="text" class="form-control" id="validationDefault01" value="" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="validationDefault02" class="form-label">Cognome</label>
+                                                <input type="text" class="form-control" id="validationDefault02" value="" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="validationDefaultUsername" class="form-label">Email</label>
+                                                <div class="input-group">
+                                                    <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                                                    <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="inputPassword4" class="form-label">Password</label>
+                                                <input type="password" class="form-control" id="inputPassword4">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="inputAddress" class="form-label">Indirizzo</label>
+                                                <input type="text" class="form-control" id="inputAddress" placeholder="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="validationDefault03" class="form-label">Città</label>
+                                                <input type="text" class="form-control" id="validationDefault03" required>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationDefault04" class="form-label">Stato</label>
+                                                <select class="form-select" id="validationDefault04" required>
+                                                    <option selected disabled value="">Choose...</option>
+                                                    <option>...</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <label for="validationDefault05" class="form-label">CAP</label>
+                                                <input type="text" class="form-control" id="validationDefault05" required>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                                    <label class="form-check-label" for="invalidCheck2">
+                                                        Seleziona per proseguire
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="formFile" class="form-label">Foto</label>
+                                                <input class="form-control" type="file" id="formFile">
+                                            </div>
+                                            <div class="btn-form-validation d-flex gap-3">
+                                                <div class="col-2 d-inline-block">
+                                                    <button class="btn btn-primary" type="submit">Salva</button>
+                                                </div>
+                                                <div class="col-2 d-inline-block">
+                                                    <button class="btn btn-warning" type="reset">Svuota</button>
+                                                </div>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
