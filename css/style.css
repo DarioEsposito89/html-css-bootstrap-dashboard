@@ -40,6 +40,20 @@ aside li:hover{
     content: none;
 }
 
+@media screen and (max-width: 576px) {
+    .hero-section .boolean-badge {
+        order: 2;
+    }
+
+    .hero-section .students-online {
+        order: 3;
+    }
+
+    .hero-section .btn-add-student {
+        order: 1;
+    }
+}
+
 @media screen and (max-width: 992px) {
     aside {
         width: 80px;
